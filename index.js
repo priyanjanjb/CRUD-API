@@ -31,7 +31,7 @@ app.listen(port, async ()=>{
     console.log(`server up ${port}`);
 });
 
-mongoose.connect(process.env.MONGODB_URL, {
+mongoose.connect(process.env.MONGODB_URL, {//env file use to encrypt the DB connection details
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }) //we call it promises
