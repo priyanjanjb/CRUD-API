@@ -1,7 +1,6 @@
 const express = require('express');
 const mongoose = require("mongoose");
 const router = require("./router");
-const router = require("./router");
 const dotenv = require("dotenv");
 const cors = require("cors");
 
